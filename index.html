@@ -1,3 +1,6 @@
+<?php
+require_once __DIR__ . '/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +10,7 @@
     <meta name="description" content="Official freelancer registration portal for CKS Online Jobs." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -15,7 +18,7 @@
       <div class="container nav-wrap">
         <div class="brand" aria-label="CKS Online Jobs home">
           <div class="brand-mark">CKS</div>
-          <span>CKS Online Jobs</span>
+          <span class="brand-word">CKS Online Jobs</span>
         </div>
 
         <nav class="main-nav" aria-label="Main navigation">
@@ -127,7 +130,7 @@
             </ul>
           </div>
 
-          <form class="registration-form" id="memberForm" novalidate>
+          <form class="registration-form" id="memberForm" method="POST" action="submit.php" novalidate>
             <div class="form-row two-col">
               <div class="field">
                 <label for="fullName">Full Name</label>
