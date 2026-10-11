@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CKS Online Jobs | Freelancer Registration</title>
+    <meta name="description" content="Official freelancer registration portal for CKS Online Jobs." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="CKS Online Jobs home">
+          <div class="brand-mark">CKS</div>
+          <span>CKS Online Jobs</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#features">Benefits</a>
+          <a href="#register">Register</a>
+          <a href="#why-us">Why Join</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary nav-btn" href="#register">Join Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Freelancer Opportunities</p>
+            <h1>Build a trusted freelance career with CKS Online Jobs.</h1>
+            <p class="lead">
+              CKS Online Jobs connects skilled professionals with reliable businesses and flexible opportunities in a secure and professional environment.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#register">Register Now</a>
+              <a class="btn btn-secondary" href="#features">Explore Benefits</a>
+            </div>
+
+            <ul class="stats" aria-label="Company highlights">
+              <li>
+                <strong>5K+</strong>
+                <span>Freelancers</span>
+              </li>
+              <li>
+                <strong>150+</strong>
+                <span>Partner Companies</span>
+              </li>
+              <li>
+                <strong>24/7</strong>
+                <span>Access to Work</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-badge">Official Platform</div>
+            <h2>Professional registration</h2>
+            <ul class="panel-list">
+              <li>Verified freelancer onboarding</li>
+              <li>Flexible remote roles</li>
+              <li>Secure business profile setup</li>
+            </ul>
+            <div class="panel-footer">
+              <p>Start your professional profile today.</p>
+              <a href="#register">Create account</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features section-pad">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Benefits</p>
+            <h2>Everything you need to grow your freelance career</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">💼</div>
+              <h3>Flexible Work</h3>
+              <p>Access remote and project-based work opportunities that match your skills and schedule.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">📈</div>
+              <h3>Career Growth</h3>
+              <p>Build a strong track record and unlock more earning potential through quality opportunities.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">🔒</div>
+              <h3>Secure Platform</h3>
+              <p>Join a trusted and professionally managed environment designed for business confidence.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">🤝</div>
+              <h3>Business Support</h3>
+              <p>Receive efficient onboarding and communication support to help you succeed.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="register" class="registration section-pad">
+        <div class="container reg-grid">
+          <div class="reg-intro">
+            <p class="eyebrow">Register</p>
+            <h2>Become a CKS freelancer</h2>
+            <p>
+              Complete your details below to create your professional freelancer profile and get matched with suitable opportunities.
+            </p>
+            <ul class="benefit-list">
+              <li>Fast and professional onboarding</li>
+              <li>Access to trusted clients</li>
+              <li>Profile visibility for business opportunities</li>
+            </ul>
+          </div>
+
+          <form class="registration-form" id="memberForm" novalidate>
+            <div class="form-row two-col">
+              <div class="field">
+                <label for="fullName">Full Name</label>
+                <input id="fullName" name="fullName" type="text" placeholder="Enter full name" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="tel" placeholder="+000 000 0000" required />
+              </div>
+            </div>
+
+            <div class="form-row two-col">
+              <div class="field">
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div class="field">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Create your password" required />
+              </div>
+            </div>
+
+            <div class="form-row two-col">
+              <div class="field">
+                <label for="country">Country</label>
+                <input id="country" name="country" type="text" placeholder="Country" required />
+              </div>
+              <div class="field">
+                <label for="category">Service Category</label>
+                <select id="category" name="category" required>
+                  <option value="">Select category</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="Virtual Assistance">Virtual Assistance</option>
+                  <option value="Digital Marketing">Digital Marketing</option>
+                  <option value="Content Writing">Content Writing</option>
+                  <option value="Admin Support">Admin Support</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="skills">Skills & Experience</label>
+              <textarea id="skills" name="skills" rows="4" placeholder="Describe your skills, experience, and expertise" required></textarea>
+            </div>
+
+            <div class="field">
+              <label for="portfolio">Portfolio / LinkedIn URL</label>
+              <input id="portfolio" name="portfolio" type="url" placeholder="https://yourprofile.com" />
+            </div>
+
+            <label class="checkbox-wrap" for="terms">
+              <input id="terms" name="terms" type="checkbox" required />
+              <span>I agree to the terms and conditions and confirm that the information provided is accurate.</span>
+            </label>
+
+            <button type="submit" class="btn btn-primary submit-btn">Create Account</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="why-us" class="why-us section-pad">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Why Join Us</p>
+            <h2>Built for professionals who want real opportunities</h2>
+          </div>
+
+          <div class="why-grid">
+            <div class="why-card">
+              <h3>Trusted network</h3>
+              <p>Connect with credible employers and work within a dependable professional ecosystem.</p>
+            </div>
+            <div class="why-card">
+              <h3>Global access</h3>
+              <p>Discover remote and project-based opportunities across diverse industries and regions.</p>
+            </div>
+            <div class="why-card">
+              <h3>Professional visibility</h3>
+              <p>Showcase your expertise and attract the right clients and long-term opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq section-pad">
+        <div class="container faq-wrap">
+          <div class="section-heading left-align">
+            <p class="eyebrow">FAQ</p>
+            <h2>Frequently asked questions</h2>
+          </div>
+
+          <div class="faq-list">
+            <details open>
+              <summary>Who can register?</summary>
+              <p>Anyone with relevant skills and interest in freelance work may register as a freelancer.</p>
+            </details>
+            <details>
+              <summary>Is registration free?</summary>
+              <p>Yes. Registration is free for all eligible freelancers.</p>
+            </details>
+            <details>
+              <summary>What happens after submission?</summary>
+              <p>Your profile is reviewed and our team may contact you with suitable opportunities.</p>
+            </details>
+            <details>
+              <summary>Can I update my profile later?</summary>
+              <p>Yes. You can return to your account and update your information as needed.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-pad">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Need help getting started?</h2>
+            <p>Our support team is ready to guide you through registration and onboarding.</p>
+
+            <div class="contact-items">
+              <div>
+                <strong>Email</strong>
+                <span>support@cksonlinejobs.com</span>
+              </div>
+              <div>
+                <strong>Phone</strong>
+                <span>+1 (800) 555-0199</span>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>Monday - Saturday, 8:00 AM - 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>Send us a message</h3>
+            <form class="mini-contact-form">
+              <input type="text" placeholder="Your name" />
+              <input type="email" placeholder="Your email" />
+              <textarea rows="4" placeholder="Your message"></textarea>
+              <button type="button" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 CKS Online Jobs. All rights reserved.</p>
+        <a href="#register">Become a Freelancer</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
